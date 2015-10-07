@@ -1,37 +1,23 @@
 {
     "esnext": true,
-    "disallowSpacesInNamedFunctionExpression": {
-        "beforeOpeningRoundBrace": false
-    },
-    "disallowSpacesInFunctionExpression": {
-        "beforeOpeningRoundBrace": false
-    },
-    "disallowSpacesInAnonymousFunctionExpression": {
-        "beforeOpeningRoundBrace": false
-    },
-    "disallowSpacesInFunctionDeclaration": {
-        "beforeOpeningRoundBrace": false
-    },
     "disallowEmptyBlocks": true,
-    "disallowSpacesInCallExpression": true,
-    "disallowSpacesInsideArrayBrackets": true,
-    "disallowSpacesInsideParentheses": true,
+    "disallowSpacesInCallExpression": false,
+    "disallowSpacesInsideArrayBrackets": false,
+    "disallowSpacesInsideParentheses": false,
     "disallowQuotedKeysInObjects": true,
-    "disallowSpaceAfterObjectKeys": true,
-    "disallowSpaceAfterPrefixUnaryOperators": true,
-    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpaceAfterObjectKeys": false,
+    "disallowSpaceAfterPrefixUnaryOperators": false,
+    "disallowSpaceBeforePostfixUnaryOperators": false,
     "disallowSpaceBeforeBinaryOperators": [
         ","
     ],
     "disallowMixedSpacesAndTabs": true,
     "disallowTrailingWhitespace": true,
-    "requireTrailingComma": { "ignoreSingleLine": true },
     "disallowSpaceBeforeComma": true,
-    "requireSpaceAfterComma": true,
     "disallowYodaConditions": true,
     "disallowKeywords": [ "with" ],
     "disallowKeywordsOnNewLine": ["else"],
-    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineBreaks": false,
     "disallowMultipleLineStrings": true,
     "disallowMultipleVarDecl": true,
     "disallowSpaceBeforeSemicolon": true,
@@ -42,7 +28,6 @@
     "requireCommaBeforeLineBreak": true,
     "requireSpaceBeforeBinaryOperators": true,
     "requireSpaceAfterBinaryOperators": true,
-    "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireLineFeedAtFileEnd": true,
     "requireCapitalizedConstructors": true,
     "requireDotNotation": true,
@@ -69,14 +54,11 @@
         "typeof",
         "function"
     ],
-    "requirePaddingNewLinesBeforeLineComments": {
-        "allExcept": "firstAfterCurly"
-    },
     "requirePaddingNewLinesAfterBlocks": {
       "allExcept": ["inProperties"]
     },
     "requireSemicolons": true,
-    "safeContextKeyword": ["self", "ctx"],
+    "safeContextKeyword": ["self", "ctx", "_this", "_self"],
     "validateLineBreaks": "LF",
     "validateQuoteMarks": "'",
     "validateIndentation": 2
